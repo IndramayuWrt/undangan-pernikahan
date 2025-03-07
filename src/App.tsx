@@ -3,7 +3,7 @@ import { Heart, Calendar, MapPin, Gift, Clock, ChevronDown } from 'lucide-react'
 
 function App() {
   const [showContent, setShowContent] = useState(false);
-  const weddingDate = new Date('2025-07-20T08:00:00');
+  const weddingDate = new Date('2025-04-09T08:00:00');
 
   const calculateTimeLeft = () => {
     const difference = +weddingDate - +new Date();
@@ -31,7 +31,7 @@ function App() {
       <section className="h-screen flex flex-col items-center justify-center relative text-center px-4">
         <div className="space-y-6 animate-fade-in">
           <Heart className="w-16 h-16 text-rose-400 mx-auto animate-pulse" />
-          <h1 className="font-serif text-4xl md:text-6xl text-gray-800">Pria & Wanita</h1>
+          <h1 className="font-serif text-4xl md:text-6xl text-gray-800">Waslani & Elisah</h1>
           <p className="text-gray-600">Kami mengundang Anda untuk merayakan hari bahagia kami</p>
           <p className="font-serif text-2xl text-gray-700">20 Juli 2025</p>
           <div className="grid grid-cols-4 gap-4 max-w-md mx-auto">
@@ -147,11 +147,11 @@ function App() {
                     </div>
                   </div>
                   <div>
-                    <h3 className="font-serif text-2xl text-gray-800">Nama mempelai Pria</h3>
+                    <h3 className="font-serif text-2xl text-gray-800">Waslani</h3>
                     <p className="text-gray-600 mt-2">Putra Pertama dari</p>
-                    <p className="text-gray-800 font-medium">Bpk. *** & Ibu ***</p>
+                    <p className="text-gray-800 font-medium">Bpk. Dumadi & Ibu Darwi</p>
                     <div className="mt-4 flex justify-center space-x-4">
-                      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-rose-400 hover:text-rose-500">@</a>
+                      <a href="https://instagram.com/yaelahlan__" target="_blank" rel="noopener noreferrer" className="text-rose-400 hover:text-rose-500">@</a>
                     </div>
                   </div>
                 </div>
@@ -168,9 +168,9 @@ function App() {
                     </div>
                   </div>
                   <div>
-                    <h3 className="font-serif text-2xl text-gray-800">Nama mempelai Wanita</h3>
+                    <h3 className="font-serif text-2xl text-gray-800">Elisah</h3>
                     <p className="text-gray-600 mt-2">Putri Kedua dari</p>
-                    <p className="text-gray-800 font-medium">Bpk. *** & Ibu ***</p>
+                    <p className="text-gray-800 font-medium">Bpk. Daman & Ibu Darisem</p>
                     <div className="mt-4 flex justify-center space-x-4">
                       <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-rose-400 hover:text-rose-500">@</a>
                     </div>
@@ -194,7 +194,7 @@ function App() {
                   <div className="space-y-2 text-gray-600">
                     <p className="flex items-center justify-center gap-2">
                       <Calendar className="w-5 h-5" />
-                      Sabtu, 20 Desember 2025
+                      Rabu, 09 April 2025
                     </p>
                     <p className="flex items-center justify-center gap-2">
                       <Clock className="w-5 h-5" />
@@ -210,20 +210,6 @@ function App() {
                 <div className="bg-rose-50 p-8 rounded-2xl shadow-lg transform hover:-translate-y-1 transition-all duration-300">
                   <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                     <Gift className="w-8 h-8 text-rose-400" />
-                  </div>
-                  <h3 className="font-serif text-2xl text-gray-800 mb-4">Resepsi</h3>
-                  <div className="space-y-2 text-gray-600">
-                    <p className="flex items-center justify-center gap-2">
-                      <Calendar className="w-5 h-5" />
-                      Sabtu, 20 Desember 2025
-                    </p>
-                    <p className="flex items-center justify-center gap-2">
-                      <Clock className="w-5 h-5" />
-                      11:00 - 14:00 WIB
-                    </p>
-                    <p className="flex items-center justify-center gap-2">
-                      <MapPin className="w-5 h-5" />
-                      Lorem ipsum dolor sit.
                     </p>
                   </div>
                 </div>
